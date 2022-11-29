@@ -153,7 +153,7 @@
 }
 
 
-@media screen and (max-width:1152px){
+@media screen and (max-width:1274px){
   .wrapper{
     justify-content:space-between !important;
     align-items:center;
@@ -194,7 +194,7 @@
   }
   .btnTablet {
     display: none !important;
-
+    width: 84%;
 }
 }
 @media screen and (max-width:1400px ){
@@ -231,7 +231,7 @@
   }
   .btnTablet {
     display: flex;
-    width: 70%;
+    width: 84%;
     align-items: center;
     justify-content:flex-end;
     gap: 20px;

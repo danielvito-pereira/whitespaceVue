@@ -42,8 +42,9 @@
       width:90%;
       height:100vh;
    
-      background: #730404;
+ 
       /*
+           background: #730404;
       min-width: 288px;
       height: 653px;*/
 
@@ -92,25 +93,26 @@
         justify-content: center;
         padding: 0px;
         gap: 4px;
-        background-color: aqua;
         width: 100%;
         min-width: 270px;
-        height: 191px;
+
         img{
           width: 100%;
-          max-height: 367px;
+
         }
       }
     }
   }
-  @media screen and (min-width:1152px){
+  @media screen and (min-width:912px){
     .heroSection{
       height: 90%;
       max-height: 641px;
       .heading{
         flex-direction: row ;
+        justify-content: space-between;
         width: 90%;
         .head{
+          align-items: flex-start;
           .text-block{
             h1.titulo{
               text-align: left;
@@ -129,12 +131,14 @@
 
 
   }
-  @media screen and (max-width:1400px ){
+  @media screen and (min-width:1400px ){
     .heading{
       flex-direction: row;
+      justify-content: space-between;
     }
     .head{
           .text-block{
+            align-items:flex-start;
             h1.titulo{
               text-align: left;
             }
@@ -142,9 +146,7 @@
             text-align: left;
             }
           }
-          .img{
-            height:100%;
-          }
+
         }
   }
 /*Botão */
@@ -153,7 +155,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 1.5em ;
+    padding: 1em ;
     width: 227px;
     background: #4F9CF9;
     color: #FFFFFF;
