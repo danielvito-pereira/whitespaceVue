@@ -10,7 +10,9 @@
         </div>
         <a class="bt -azul">Try Whitepace free</a>
       </div>
-      <div class="img"></div>
+      <div class="img">
+        <img src="../assets/img/homem_segurando_celular_sentado_em_um_sofa.png" alt="">
+      </div>
     </div>
   </section>
 </template>
@@ -21,11 +23,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1em;
     gap: 100px;
     width: 100%;
-    height: 813px;
-    background: #043873;
+    height: 903px;
+    left: 0px;
+    margin-bottom: 3rem;
+    background-color: var(--primary-color);
     background-image: url("../assets/img/Element.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,33 +37,36 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 0px;
-      gap: 50px;
-      height:90%;
+      padding: .2em;
+      gap: 100px;
+      width:90%;
+      height:100vh;
+   
+      background: #730404;
+      /*
       min-width: 288px;
-      height: 653px;
+      height: 653px;*/
 
       .head{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 1em;
         gap: 60px;
-        width: 90%;
+        width: 100%;
+        padding:1em;
         .text-block {
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          padding: 1em;
           gap: 24px;
           width: 100%;
           h1.titulo{
             font-family: 'Inter';
             font-style: normal;
             font-weight: 700;
-            font-size: 46px;
+            font-size: 42px;
             line-height: 44px;
             text-align: center;
             letter-spacing: -0.02em;
@@ -82,17 +88,65 @@
       .img{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
+        justify-content: center;
         padding: 0px;
         gap: 4px;
         background-color: aqua;
-        width: 90%;
+        width: 100%;
         min-width: 270px;
         height: 191px;
+        img{
+          width: 100%;
+          max-height: 367px;
+        }
       }
     }
   }
+  @media screen and (min-width:1152px){
+    .heroSection{
+      height: 90%;
+      max-height: 641px;
+      .heading{
+        flex-direction: row ;
+        width: 90%;
+        .head{
+          .text-block{
+            h1.titulo{
+              text-align: left;
+            }
+            .paragrafo{
+            text-align: left;
+            }
+          }
+          .img{
+            height:100%;
+          }
+        }
+    }
+    }
 
+
+
+  }
+  @media screen and (max-width:1400px ){
+    .heading{
+      flex-direction: row;
+    }
+    .head{
+          .text-block{
+            h1.titulo{
+              text-align: left;
+            }
+            .paragrafo{
+            text-align: left;
+            }
+          }
+          .img{
+            height:100%;
+          }
+        }
+  }
 /*Botão */
   .bt{
     display: flex;

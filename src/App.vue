@@ -78,12 +78,12 @@ img, picture, video, iframe, figure {
   max-width: 100%;
   width: 100%;
   display: block;
-  /* opcional */
+  /* opcional
   -o-object-fit: cover;
-     object-fit: cover;
-  /* opcional */
+     object-fit: cover; */
+  /* opcional 
   -o-object-position: center center;
-     object-position: center center;
+     object-position: center center;*/
 }
 
 /* Reseteamos los enlaces para funcionar como cajas... */
@@ -177,10 +177,10 @@ body {
   color: var(--negro);
   /* opcional */
   line-height: 1.4em;
-  /* opcional */
+  /* opcional 
   -webkit-hyphens: auto;
       -ms-hyphens: auto;
-          hyphens: auto;
+          hyphens: auto;*/
   /* opcional
   font-smooth: always; */
   /* opcional 
