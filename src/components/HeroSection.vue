@@ -106,7 +106,7 @@
   @media screen and (min-width:912px){
     .heroSection{
       height: 90%;
-      max-height: 641px;
+      max-height: 800px;
       .heading{
         flex-direction: row ;
         justify-content: space-between;
@@ -132,23 +132,33 @@
 
   }
   @media screen and (min-width:1400px ){
-    .heading{
+    .heroSection{
+      .heading{
       flex-direction: row;
       justify-content: space-between;
-    }
-    .head{
+      gap: 0;
+
+      .head{
           .text-block{
             align-items:flex-start;
             h1.titulo{
               text-align: left;
+              font-weight: 700;
+              font-size: 64px;
+              line-height: 77px;
+              letter-spacing: -0.02em;
             }
             .paragrafo{
             text-align: left;
             }
           }
 
-        }
+    }
+    }
+
+    }
   }
+
 /*Botão */
   .bt{
     display: flex;
