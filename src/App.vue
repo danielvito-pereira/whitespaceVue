@@ -4,9 +4,11 @@
   <WorkManagement/>
   <CustomiseSection/>
   <YourNeeds/>
+  <SlidePricing/>
   <YourWork/>
   <YourData/>
   <AppsSections/>
+
 </template>
 
 <script>
@@ -18,6 +20,7 @@ import YourNeeds from './components/YourNeeds.vue'
 import YourWork from './components/YourWork.vue'
 import YourData from './components/YourData.vue'
 import AppsSections from './components/AppsSections.vue'
+import SlidePricing from './components/SlidePricing'
 export default {
   name: 'App',
   components: {
@@ -26,10 +29,14 @@ export default {
     WorkManagement,
     CustomiseSection,
     YourNeeds,
+
+    SlidePricing,
+
     YourWork,
     YourData,
 
     AppsSections,
+
   }
 }
 </script>

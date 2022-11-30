@@ -156,6 +156,7 @@
       .-reverse{
             flex-direction: row-reverse !important;
           }
+
     }
     .heading{
         .head {

@@ -85,6 +85,7 @@
         .head{
           align-items: center;
           .text-block{
+            align-items: center !important;
             h1.titulo{
               text-align: center;
             }
@@ -94,9 +95,6 @@
           }
         }
     }
-    }
-    .heading .head .text-block {
-     align-items: center !important;
     }
   }
   @media screen and (min-width:1400px ){

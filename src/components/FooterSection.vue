@@ -101,6 +101,6 @@
 
 <script>
 export default {
-  name: 'YourNeeds',
+  name: 'FooterSection',
 }
 </script>

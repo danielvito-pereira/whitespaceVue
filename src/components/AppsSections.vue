@@ -25,8 +25,8 @@
     align-items: center;
     gap: 100px;
     width: 100%;
-    height: 903px;
-    left: 0px;
+    height: 1203px;
+    padding: 1em;
     background-color: var(--primary-color);
     background-image: url("../assets/img/ElementBk.png");
     background-repeat: no-repeat;
@@ -151,7 +151,27 @@
     }
   }
 
-/*Botão */
+/*Botão 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
   .bt{
     display: flex;
     flex-direction: row;
