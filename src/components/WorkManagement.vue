@@ -11,12 +11,14 @@
           </div>
           <a class="bt -azul">Get Started</a>
         </div>
-      <div class="img"></div>
+      <div class="img">
+        <img src="../assets/img/pexels-fauxels-3184160.jpg" alt="">
+      </div>
       </div>
     </div>
     <div class="content">
-      <div class="heading">
-        <div class="head">
+      <div class="heading -reverse">
+        <div class="head ">
           <div class="text-block">
             <h1 class="titulo">Work together</h1>
             <p class="paragrafo">
@@ -27,7 +29,9 @@
           </div>
           <a class="bt -azul">Try it now</a>
         </div>
-      <div class="img"></div>
+      <div class="img">
+        <img src="../assets/img/Work_Together_Image.png" alt="">
+      </div>
       </div>
     </div>
   </section>
@@ -37,14 +41,11 @@
   .WorkManagement{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 80px 16px;
-    gap: 100px;
+    gap: 50px;
     width: 100%;
-    height: 1586.74px;
-    left: 0px;
-
+    height: 1786.74px;
     .content{
       display: flex;
       flex-direction: column;
@@ -53,74 +54,165 @@
       padding: 0px;
       gap: 60px;
       width: 90%;
-      height: 659px;
-      
-        .heading{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0px;
-        gap: 50px;
-        height:100%;
-        min-width: 288px;
-        height: 653px;
- 
-        .head{
-
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          padding: 1em;
-          gap: 60px;
-          width: 100%;
-          .text-block {
-            background:red;
+          .heading{
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
-            padding: 1em;
-            gap: 24px;
-            width: 100%;
-            h1.titulo{
-              font-family: 'Inter';
-              font-style: normal;
-              font-weight: 700;
-              font-size: 35px;
-              line-height: 44px;
-              text-align: center;
-              letter-spacing: -0.02em;
-              color:var(--white);
-            }
-            .paragrafo{
-              font-family: 'Inter';
-              font-style: normal;
-              font-weight: 400;
-              font-size: 18px;
-              line-height: 30px;
-              text-align: center;
-              letter-spacing: -0.02em;
-              color:var(--white);
-            }
+            padding: .2em;
+            width:100%;
+            gap: 50px;
+            .head{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              gap: 60px;
+              width: 100%;
+              padding:1em;
 
+              .text-block {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 24px;
+                width: 100%;
+                h1.titulo{
+                  font-family: 'Inter';
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 42px;
+                  line-height: 44px;
+                  text-align: center;
+                  letter-spacing: -0.02em;
+                  color:var(--negro);
+                }
+                .paragrafo{
+                  font-family: 'Inter';
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 18px;
+                  line-height: 30px;
+                  text-align: center;
+                  letter-spacing: -0.02em;
+                  color:var(--paragraph);
+                }
+
+              }
+            }
+            .img{
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              padding: 0px;
+              gap: 4px;
+              width: 100%;
+              min-width: 270px;
+
+              img{
+                width: 100%;
+                border-radius: 8px;
+              }
+            }
           }
         }
-        .img{
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-          padding: 0px;
-          gap: 4px;
-          background-color: aqua;
-          width: 80%;
-          min-width: 270px;
-          height: 191px;
-        }
-        }
     }
-  }
+  
+
+
+
+
+
+
+    @media screen and (min-width:912px){
+      .WorkManagement{
+        .content{
+          .heading{
+            flex-direction: row ;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0px;
+            
+            .head{
+              align-items: flex-start;
+              .text-block{
+                h1.titulo{
+                  text-align: left;
+                }
+                .paragrafo{
+                text-align: left;
+                }
+              }
+              .img{
+                height:100%;
+              }
+            }
+          }
+        }
+      }
+      .-reverse{
+            flex-direction: row-reverse !important;
+          }
+    }
+
+    
+    @media screen and (min-width:1400px){
+      .WorkManagement{
+        .content{
+          .heading{
+            flex-direction: row ;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0px;
+            .head{
+              .text-block{
+                align-items:flex-start;
+                h1.titulo{
+                  text-align: left;
+                  font-weight: 700;
+                  font-size: 64px;
+                  line-height: 77px;
+                  letter-spacing: -0.02em;
+                }
+                .paragrafo{
+                text-align: left;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  /*
+  @media screen and (min-width:1400px ){
+    .WorkManagement{
+      .heading{
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 0;
+
+      .head{
+          .text-block{
+            align-items:flex-start;
+            h1.titulo{
+              text-align: left;
+              font-weight: 700;
+              font-size: 64px;
+              line-height: 77px;
+              letter-spacing: -0.02em;
+            }
+            .paragrafo{
+            text-align: left;
+            }
+          }
+
+    }
+    }
+
+    }
+  }*/
 </style>
 
 <script>

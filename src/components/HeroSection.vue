@@ -27,7 +27,6 @@
     width: 100%;
     height: 903px;
     left: 0px;
-    margin-bottom: 3rem;
     background-color: var(--primary-color);
     background-image: url("../assets/img/Element.svg");
     background-repeat: no-repeat;
