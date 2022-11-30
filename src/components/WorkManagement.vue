@@ -157,7 +157,14 @@
             flex-direction: row-reverse !important;
           }
     }
-
+    .heading{
+        .head {
+          .text-block{
+              align-items: flex-start !important;
+            }
+        }
+      }
+      
     
     @media screen and (min-width:1400px){
       .WorkManagement{

@@ -111,7 +111,8 @@
         .head{
           align-items: flex-start;
           .text-block{
-            h1.titulo{
+            align-items: flex-start;
+            .titulo{
               text-align: left;
             }
             .paragrafo{
@@ -125,6 +126,17 @@
     }
     }
 
+    .Customise {
+      .heading{
+        .head {
+          .text-block{
+              align-items: flex-start !important;
+            }
+        }
+      }
+    }
+      
+        
 
 
   }

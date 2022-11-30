@@ -1,25 +1,24 @@
 <template>
-  <section class="Customise">
-    <div class="heading">
+  <section class="AppsSections">
+    <div class="heading ">
       <div class="img">
-        <img src="../assets/img/pexels-antoni-shkraba-4348404.jpg" alt="">
+        <img src="../assets/img/Apps.png" alt="">
       </div>
       <div class="head">
         <div class="text-block">
-          <h1 class="titulo">Customise it to your needs</h1>
+          <h1 class="titulo">Work with Your Favorite Apps Using whitepace</h1>
           <p class="paragrafo">
-            Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.
+            Whitepace teams up with your favorite software. Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success.
           </p>
         </div>
-        <a class="bt -azul">Let’s Go</a>
+        <a class="bt -azul">Read more</a>
       </div>
-
     </div>
   </section>
 </template>
 
 <style lang="scss">
-  .Customise{
+  .AppsSections{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,8 +27,10 @@
     width: 100%;
     height: 903px;
     left: 0px;
-    background-color: var(--white);
-
+    background-color: var(--primary-color);
+    background-image: url("../assets/img/ElementBk.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     .heading{
       display: flex;
       flex-direction: column;
@@ -39,13 +40,6 @@
       gap: 100px;
       width:90%;
       height:100vh;
-   
- 
-      /*
-           background: #730404;
-      min-width: 288px;
-      height: 653px;*/
-
       .head{
         display: flex;
         flex-direction: column;
@@ -69,7 +63,7 @@
             line-height: 44px;
             text-align: center;
             letter-spacing: -0.02em;
-            color:var(--negro);
+            color:var(--white);
           }
           .paragrafo{
             font-family: 'Inter';
@@ -79,7 +73,7 @@
             line-height: 30px;
             text-align: center;
             letter-spacing: -0.02em;
-            color:var(--negro);
+            color:var(--white);
           }
 
         }
@@ -93,16 +87,16 @@
         gap: 4px;
         width: 100%;
         min-width: 270px;
-        border-radius: 8px;
+
         img{
           width: 100%;
-          border-radius: 8px;
+
         }
       }
     }
   }
   @media screen and (min-width:912px){
-    .Customise{
+    .AppsSections{
       height: 90%;
       max-height: 800px;
       .heading{
@@ -125,25 +119,16 @@
         }
     }
     }
-
-
-    .Customise {
-      .heading{
-        .head {
-          .text-block{
-              align-items: flex-start !important;
-            }
-        }
-      }
-    }
-      
+    .-reverse{
+            flex-direction: row-reverse !important;
+          }
   }
   @media screen and (min-width:1400px ){
-    .Customise{
+    .AppsSections{
       .heading{
       flex-direction: row;
       justify-content: space-between;
-      gap: 50;
+      gap: 100;
 
       .head{
           .text-block{
@@ -202,6 +187,6 @@
 
 <script>
 export default {
-  name: 'YourNeeds',
+  name: 'AppsSections',
 }
 </script>

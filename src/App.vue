@@ -4,6 +4,7 @@
   <WorkManagement/>
   <CustomiseSection/>
   <YourNeeds/>
+  <AppsSections/>
 </template>
 
 <script>
@@ -12,6 +13,7 @@ import HeroSection from './components/HeroSection.vue'
 import WorkManagement from './components/WorkManagement.vue'
 import CustomiseSection from './components/CustomiseSection.vue'
 import YourNeeds from './components/YourNeeds.vue'
+import AppsSections from './components/AppsSections.vue'
 export default {
   name: 'App',
   components: {
@@ -19,7 +21,8 @@ export default {
     HeroSection,
     WorkManagement,
     CustomiseSection,
-    YourNeeds
+    YourNeeds,
+    AppsSections
   }
 }
 </script>
