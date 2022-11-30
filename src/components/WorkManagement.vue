@@ -45,7 +45,8 @@
     align-items: center;
     gap: 50px;
     width: 100%;
-    height: 1786.74px;
+    height: 1986.74px;
+
     .content{
       display: flex;
       flex-direction: column;

@@ -1,20 +1,25 @@
 <template>
-
   <HeaderApp/>
   <HeroSection/>
   <WorkManagement/>
+  <CustomiseSection/>
+  <YourNeeds/>
 </template>
 
 <script>
 import HeaderApp from './components/HeaderApp.vue'
 import HeroSection from './components/HeroSection.vue'
 import WorkManagement from './components/WorkManagement.vue'
+import CustomiseSection from './components/CustomiseSection.vue'
+import YourNeeds from './components/YourNeeds.vue'
 export default {
   name: 'App',
   components: {
     HeaderApp, 
     HeroSection,
-    WorkManagement
+    WorkManagement,
+    CustomiseSection,
+    YourNeeds
   }
 }
 </script>
