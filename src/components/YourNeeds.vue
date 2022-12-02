@@ -181,7 +181,6 @@
 
 
     &:hover{
-      color: #043873;
       transition: all .5s ease-in-out;
     }
     

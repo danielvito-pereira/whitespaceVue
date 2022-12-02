@@ -7,8 +7,10 @@
   <SlidePricing/>
   <YourWork/>
   <YourData/>
+  <YourSponsors/>
   <AppsSections/>
-
+  <FreeTrial/>
+  <FooterSection/>
 </template>
 
 <script>
@@ -19,8 +21,11 @@ import CustomiseSection from './components/CustomiseSection.vue'
 import YourNeeds from './components/YourNeeds.vue'
 import YourWork from './components/YourWork.vue'
 import YourData from './components/YourData.vue'
+import YourSponsors from './components/YourSponsors.vue'
 import AppsSections from './components/AppsSections.vue'
-import SlidePricing from './components/SlidePricing'
+import SlidePricing from './components/SlidePricing.vue'
+import FreeTrial from './components/FreeTrial.vue'
+import FooterSection from './components/FooterSection.vue'
 export default {
   name: 'App',
   components: {
@@ -29,14 +34,13 @@ export default {
     WorkManagement,
     CustomiseSection,
     YourNeeds,
-
     SlidePricing,
-
     YourWork,
     YourData,
-
+    YourSponsors,
     AppsSections,
-
+    FreeTrial,
+    FooterSection
   }
 }
 </script>

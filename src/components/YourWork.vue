@@ -22,7 +22,8 @@
     align-items: center;
     gap: 100px;
     width: 100%;
-    height: 903px;
+   
+    max-height: 574px;
     left: 0px;
     background-color: var(--primary-color);
     .heading{
@@ -98,12 +99,17 @@
     }
   }
   @media screen and (min-width:1400px ){
+    .YourWork{
+      height: 90%;
+      max-height: 574px;
+    }
     .yourdata{
+     
       .heading{
       flex-direction: row;
       justify-content: space-between;
       gap: 100;
-
+      
       .head{
           .text-block{
             align-items:center;
@@ -139,7 +145,7 @@
 
 
     &:hover{
-      color: #043873;
+   
       transition: all .5s ease-in-out;
     }
     

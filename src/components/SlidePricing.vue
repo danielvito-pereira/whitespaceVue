@@ -12,102 +12,104 @@
       <div class="priceBoard -dourado">
         <div class="text">
             <h1>Free</h1>
-            <p>$0</p>
+            <p class="numero">$0</p>
             <p>Capture ideas and find them quickly</p>
           </div>
           <div class="bulletPoint">
             <div class="point -t">
-              <img src="" alt="" srcset="">
+              <img src="../assets/img/Icon.png" srcset="">
               <p>Sync unlimited devices</p>
             </div>
             <div class="point -t">
-              <img src="" alt="" srcset="">
+              <img src="../assets/img/Icon.png" srcset="">
               <p>10 GB monthly uploads</p>
             </div>
             <div class="point -t">
-              <img src="" alt="" srcset="">
+              <img src="../assets/img/Icon.png" srcset="">
               <p>200 MB max. note size</p>
             </div>
             <div class="point -t">
-              <img src="" alt="" srcset="">
+              <img src="../assets/img/Icon.png" srcset="">
               <p>Customize Home dashboard and access extra widgets</p>
             </div>
             <div class="point -t">
-              <img src="" alt="" srcset="">
+              <img src="../assets/img/Icon.png" srcset="">
               <p>Connect primary Google Calendar account</p>
             </div>
             <div class="point -t">
-              <img src="" alt="" srcset="">
+              <img src="../assets/img/Icon.png" srcset="">
               <p>Add due dates, reminders, and notifications to your tasks</p>
             </div>
           </div>
+          <button class="bt -do">Get Started</button>
       </div>
-      <div class="priceBoard">
+      <div class="priceBoard -mid">
         <div class="text">
           <h1>Personal</h1>
-          <p class="-goldNumber">$11.99</p>
+          <p class="numero -goldNumber">$11.99</p>
           <p>Keep home and family on track</p>
         </div>
         <div class="bulletPoint">
           <div class="point -t">
-            <img src="" alt="" srcset="">
+            <img src="../assets/img/Icon.png" srcset="">
             <p>Sync unlimited devices</p>
           </div>
           <div class="point -t">
-            <img src="" alt="" srcset="">
+            <img src="../assets/img/Icon.png" srcset="">
             <p>10 GB monthly uploads</p>
           </div>
           <div class="point -t">
-            <img src="" alt="" srcset="">
+            <img src="../assets/img/Icon.png" srcset="">
             <p>200 MB max. note size</p>
           </div>
           <div class="point -t">
-            <img src="" alt="" srcset="">
+            <img src="../assets/img/Icon.png" srcset="">
             <p>Customize Home dashboard and access extra widgets</p>
           </div>
           <div class="point -t">
-            <img src="" alt="" srcset="">
+            <img src="../assets/img/Icon.png" srcset="">
             <p>Connect primary Google Calendar account</p>
           </div>
           <div class="point -t">
-            <img src="" alt="" srcset="">
+            <img src="../assets/img/Icon.png" srcset="">
             <p>Add due dates, reminders, and notifications to your tasks</p>
           </div>
         </div>
+        <button class="bt ">Get Started</button>
       </div>
       <div class="priceBoard -dourado">
         <div class="text">
           <h1>Organization</h1>
-          <p>$49.99</p>
+          <p class="numero">$49.99</p>
           <p>Capture ideas and find them quickly</p>
         </div>
         <div class="bulletPoint">
             <div class="point -t">
-              <img src="" alt="" srcset="">
+              <img src="../assets/img/Icon.png" srcset="">
               <p>Sync unlimited devices</p>
             </div>
             <div class="point -t">
-              <img src="" alt="" srcset="">
+              <img src="../assets/img/Icon.png" srcset="">
               <p>10 GB monthly uploads</p>
             </div>
             <div class="point -t">
-              <img src="" alt="" srcset="">
+              <img src="../assets/img/Icon.png" srcset="">
               <p>200 MB max. note size</p>
             </div>
             <div class="point -t">
-              <img src="" alt="" srcset="">
+              <img src="../assets/img/Icon.png" srcset="">
               <p>Customize Home dashboard and access extra widgets</p>
             </div>
             <div class="point -t">
-              <img src="" alt="" srcset="">
+              <img src="../assets/img/Icon.png" srcset="">
               <p>Connect primary Google Calendar account</p>
             </div>
             <div class="point -t">
-              <img src="" alt="" srcset="">
+              <img src="../assets/img/Icon.png" srcset="">
               <p>Add due dates, reminders, and notifications to your tasks</p>
             </div>
         </div>
-
+        <button class="bt -do">Get Started</button>
       </div>
     </div>
     <div class="indicadores">
@@ -154,6 +156,7 @@
             letter-spacing: -0.02em;
             color:var(--negro);
           }
+
           .paragrafo{
             font-family: 'Inter';
             font-style: normal;
@@ -167,36 +170,36 @@
         }
         }
       .priceList{
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-          padding: 0px;
-          gap: 32px;
-          width: 1481px;
-          padding: 1em;
-          background-color: red;
+        width: 100%;
+        padding:1em;
+        display: grid;
+        grid-template-columns: repeat( auto-fit , minmax( 10em , 1fr ) );
+        gap: 0;
+        align-items: center;
+        justify-items: center;
           .priceBoard{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
-            padding: 80px 44px;
-            gap: 25px;
+            gap: 0px;
             width: 90%;
             padding: 1em;
-            background: #04730a;
             box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
             border-radius: 10px;
+            background: var(--primary-color);
+            color: var(--white);
+            max-height: 853px;
+            min-height: 761px;
+            max-width: 472.33px;
               .text{
                   display: flex;
                   flex-direction: column;
                   align-items: flex-start;
                   padding: 0px;
-                  gap: 25px;
+                  gap: 15px;
                   width: 90%;
                   padding: 1em;
-                  background: #730404;
                   h1{
                     font-family: 'Inter';
                     font-style: normal;
@@ -204,29 +207,61 @@
                     font-size: 24px;
                     line-height: 36px;
                   }
+                    .numero{
+                      font-family: 'Inter';
+                      font-style: normal;
+                      font-weight: 700;
+                      font-size: 36px;
+                      line-height: 44px;
+                    }
                   p.-goldNumber{
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 36px;
-                    line-height: 44px;
-                    /* identical to box height */
-
-                    letter-spacing: -0.02em;
-
                     color: #FFE492;
                   }
+              }
+              .bulletPoint{
+
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 0px;
+                width: 100%;
+    
+                .point{
+                  display: flex;
+                  justify-content: flex-start;
+                  align-items: center;
+                  padding: 0px;
+                  gap: 19px;
+                  padding: 1em;
+                  width: 100%;
+                }
+                img{
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  padding: 0px;
+                  gap: 4px;
+                  width: 18.01px;
+                  height: 18.01px;
+                  
+              }
               }
           }
           .priceBoard.-dourado{
             background-color: var(--white);
             color: var(--negro);
             border: 1px solid var(--button2);
+            padding:0;
+            min-height: 700px;
+            gap: 0;
+            padding: 1em;
           }
 
         }  
       .indicadores{
-        display: flex;
+        display: none;
         flex-direction: row;
         align-items: center;
         justify-content: center;
@@ -248,6 +283,81 @@
           }
         }
       }  
+    }
+    @media screen and (max-width:500px){
+      .SlidePricing{
+      .priceList{
+          .priceBoard{
+
+          }
+          .priceBoard.-dourado{
+
+          }
+        }  
+      .indicadores{
+        display: flex;
+      }  
+    }
+
+    }
+    @media screen and (max-width:912px){
+      .SlidePricing{
+        .priceList{
+          display: flex;
+          align-items: center;
+          justify-content:space-between;
+          width: 1481px;
+          height: 711px;
+          .priceBoard{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 0px;
+            width: 90%;
+            padding: 1em;
+            box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+            border-radius: 10px;
+            background: var(--primary-color);
+            color: var(--white);
+            max-height: 853px;
+            min-height: 761px;
+            max-width: 472.33px;
+
+          }
+          .priceBoard.-dourado{
+            background-color: var(--white);
+            color: var(--negro);
+            border: 1px solid var(--button2);
+            padding:0;
+            min-height: 700px;
+            gap: 0;
+            padding: 1em;
+          }
+        }
+      }
+
+
+      .SlidePricing .head {
+       
+         padding: 0; 
+    }
+    }
+    .SlidePricing {
+      .priceList{
+        .priceBoard{
+          .bt{
+            width: 176px;
+            height: 62px;
+            padding: 16px 40px;
+          }
+          .bt.-do{
+            background: var(--white);
+            color: var(--negro);
+            border: 1px solid #FFE492;
+          }
+        }
+      }
     }
 
 </style>
