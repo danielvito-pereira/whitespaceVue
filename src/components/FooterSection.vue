@@ -44,7 +44,8 @@
             <h1>Try It Today</h1>
             <p class="paragrafo">Get started for free.
               Add your whole team as your needs grow.</p>
-              <button  class="main-button -blue">Start today </button>
+              <button class="bt -do">Start today</button>
+              
           </di>
       </div>
     </div>
@@ -76,13 +77,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 140px 16px 32px;
-    gap: 200px;
     color: white;
     position: absolute;
     width: 100%;
-    height: 1806px;
-    left: 0px;
+    height: 1706px;
+    padding-top: 1em;
     background-color: var(--primary-color);
   }
 
@@ -93,22 +92,20 @@
     align-items: center;
     padding: 0px;
     gap: 80px;
-    
-    width: 288px;
-    height: 1533.68px;
+    width: 90%;
+    max-height: 1533.68px;
   }
 
   .info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 80px;
-
-  width: 288px;
-  height: 1217px;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+    width: 100%;
+    height: 1217px;
+  }
 
 .logo-description{
   display: flex;
@@ -116,8 +113,8 @@
   align-items: center;
   padding: 0px;
   gap: 24px;
-  
-  width: 288px;
+  widows: 100%;
+  max-width: 288px;
   height: 178px;
 }
 
@@ -150,8 +147,7 @@
   align-items: center;
   padding: 0px;
   gap: 20px;
-
-  width: 288px;
+  width: 90%;
   height: 236.68px;
 
 }
@@ -163,7 +159,7 @@
   padding: 0px 0px 20px;
   gap: 20px;
   color: var(--white);
-  width: 288px;
+  width: 100%;
   height: 200px;
 
   border-bottom: 1px solid #2E4E73;
@@ -183,8 +179,6 @@
   align-items: center;
   padding: 0px;
   gap: 20px;
-
-
   width: 100%;
 }
 
@@ -212,6 +206,42 @@
     text-align: center;
     letter-spacing: -0.02em;
     color:var(--white);
+  }
+
+  @media screen and (min-width:760px){
+    footer {
+      .logo-description{
+          align-items: flex-start;
+          padding: 1em;
+        }
+      .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding:1em;
+      }
+     
+      .terms {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .inf{
+        align-items: flex-start;
+        padding: 1em;
+      }
+
+      .paragrafo{
+     
+        text-align: left;
+    
+      }
+      .try-btn{
+        width: 50%;
+        align-items: flex-start;
+
+      }
+  }
   }
 </style>
 
