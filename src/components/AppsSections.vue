@@ -39,6 +39,7 @@
       padding: .2em;
       gap: 100px;
       width:90%;
+      max-width: 1920px;
       height:100vh;
       .head{
         display: flex;
@@ -48,6 +49,7 @@
         gap: 60px;
         width: 100%;
         padding:1em;
+        
         .text-block {
           display: flex;
           flex-direction: column;
@@ -97,8 +99,6 @@
   }
   @media screen and (min-width:912px){
     .AppsSections{
-      height: 90%;
-      max-height: 800px;
       .heading{
         flex-direction: row ;
         justify-content: space-between;

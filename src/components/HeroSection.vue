@@ -39,6 +39,7 @@
       padding: .2em;
       gap: 100px;
       width:90%;
+      max-width: 1920px;
       height:100vh;
    
  

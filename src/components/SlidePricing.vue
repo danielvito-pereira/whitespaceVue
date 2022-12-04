@@ -138,6 +138,7 @@
         align-items: center;
         gap: 60px;
         width: 100%;
+        max-width: 1920px;
         padding:1em;
         .text-block {
           display: flex;
@@ -171,6 +172,7 @@
         }
       .priceList{
         width: 100%;
+        max-width: 1920px;
         padding:1em;
         display: grid;
         grid-template-columns: repeat( auto-fit , minmax( 10em , 1fr ) );

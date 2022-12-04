@@ -23,7 +23,7 @@
     gap: 100px;
     width: 100%;
    
-    max-height: 574px;
+    max-height: 630px;
     left: 0px;
     background-color: var(--primary-color);
     .heading{
@@ -34,6 +34,7 @@
       padding: .2em;
       gap: 100px;
       width:90%;
+      max-width: 1920px;
       height:100vh;
       .head{
         display: flex;

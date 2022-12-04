@@ -36,6 +36,7 @@
       padding: .2em;
       gap: 100px;
       width:90%;
+      max-width: 1920px;
       height:100vh;
       .head{
         display: flex;
@@ -49,7 +50,6 @@
           display: flex;
           flex-direction: column;
           justify-content: center;
-          align-items: center;
           gap: 24px;
           width: 100%;
           h1.titulo{

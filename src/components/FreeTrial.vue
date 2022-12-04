@@ -18,7 +18,7 @@
         </div>
       </div>
 
-      </div>
+    </div>
   </section>
 </template>
 
@@ -110,7 +110,22 @@
   }
 
   @media screen and (min-width:1150px ){
-    
+    .freetrial {
+
+      .heading{
+        .text-block {
+          h1.titulo{
+            text-align: center;
+          }
+          .paragrafo{
+            text-align: center;
+          }
+        }
+        .btnTry{
+          align-items:center;
+        }
+      }
+    }
     h1.titulo{
             font-family: 'Inter';
             font-style: normal;
@@ -120,8 +135,8 @@
             text-align: center;
             letter-spacing: -0.02em;
             color:var(--white);
-          }
-          .paragrafo{
+    }
+        .paragrafo{
             font-family: 'Inter';
             font-style: normal;
             font-weight: 400;
@@ -131,9 +146,7 @@
             letter-spacing: -0.02em;
             color:var(--white);
           }
-          .btnTry{
-          align-items:center;
-        }
+
 
   }
 </style>

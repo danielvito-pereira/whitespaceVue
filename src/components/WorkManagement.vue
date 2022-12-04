@@ -55,6 +55,7 @@
       padding: 0px;
       gap: 60px;
       width: 90%;
+      max-width: 1920px;
           .heading{
             display: flex;
             flex-direction: column;
@@ -128,6 +129,7 @@
 
 
     @media screen and (min-width:912px){
+ 
       .WorkManagement{
         .content{
           .heading{
@@ -139,6 +141,7 @@
             .head{
               align-items: flex-start;
               .text-block{
+                align-items: flex-start ;
                 h1.titulo{
                   text-align: left;
                 }
@@ -161,7 +164,7 @@
     .heading{
         .head {
           .text-block{
-              align-items: flex-start !important;
+              
             }
         }
       }

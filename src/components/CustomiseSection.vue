@@ -38,7 +38,7 @@
       gap: 100px;
       width:90%;
       height:100vh;
-   
+      max-width: 1920px;
  
       /*
            background: #730404;
