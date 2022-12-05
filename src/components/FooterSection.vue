@@ -23,28 +23,28 @@
               We make beautyfully designed around the world</p>
           </div>
           <div class="inf">
-            <h1>Product</h1>
+            <h1 class="paragrafo">Product</h1>
             <p>Overview</p>
             <p>Pricing</p>
             <p>Customer Stories</p>
           </div>
           <div class="inf">
-            <h1>Resources</h1>
+            <h1 class="paragrafo">Resources</h1>
             <p>Blog</p>
             <p>Guides & tutorials</p>
             <p>Help center</p>
           </div>
           <div class="inf">
-            <h1>Company</h1>
+            <h1 class="paragrafo">Company</h1>
             <p>About us</p>
             <p>Careers</p>
             <p>Media Kit</p>
           </div>
           <di class="try-btn">
-            <h1>Try It Today</h1>
-            <p class="paragrafo">Get started for free.
+            <h1 class="paragrafo">Try It Today</h1>
+            <p >Get started for free.
               Add your whole team as your needs grow.</p>
-              <button class="bt -do">Start today</button>
+              <button class="bt -azul">Start today</button>
               
           </di>
       </div>
@@ -81,7 +81,6 @@
     position: absolute;
     width: 100%;
     padding-top: 1em;
-    padding: 1em;
     background-color: var(--primary-color);
   }
 

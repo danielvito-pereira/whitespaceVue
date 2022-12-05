@@ -9,6 +9,7 @@
   <YourData/>
   <YourSponsors/>
   <AppsSections/>
+  <TestimonialSection/>
   <FreeTrial/>
   <FooterSection/>
 </template>
@@ -24,6 +25,7 @@ import YourData from './components/YourData.vue'
 import YourSponsors from './components/YourSponsors.vue'
 import AppsSections from './components/AppsSections.vue'
 import SlidePricing from './components/SlidePricing.vue'
+import TestimonialSection from './components/TestimonialSection.vue'
 import FreeTrial from './components/FreeTrial.vue'
 import FooterSection from './components/FooterSection.vue'
 export default {
@@ -39,6 +41,7 @@ export default {
     YourData,
     YourSponsors,
     AppsSections,
+    TestimonialSection,
     FreeTrial,
     FooterSection
   }

@@ -31,8 +31,10 @@
     justify-content:flex-start;
     background-color: var(--primary-color);
     width: 100%;
+    height:100vh;
+    min-height: 596px;
+    max-height: 705px;
     padding: 1em;
-  
     .heading{
 
       display:flex;
@@ -111,7 +113,9 @@
 
   @media screen and (min-width:1150px ){
     .freetrial {
-
+      align-items:center;
+      justify-content:center;
+      padding: 5em;
       .heading{
         .text-block {
           h1.titulo{
@@ -123,6 +127,12 @@
         }
         .btnTry{
           align-items:center;
+          .appIcons{
+          justify-content: center;
+          gap: 40px;
+          width: 60px;
+          height: 60px;
+        }
         }
       }
     }

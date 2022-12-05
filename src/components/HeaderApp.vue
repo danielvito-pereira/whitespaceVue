@@ -253,6 +253,9 @@
   }
 
   }
+  .btn{
+    display: none;
+  }
 }
 
 
